@@ -10,7 +10,7 @@ Input: YouTube URL (or apply Default) Output: org_audio.mpe(original audio) proc
 
 輸入：YouTube 網址（亦可以使用 Default）輸出：org_audio.mpe（紀錄原始音訊）processed_audio.mp3（處理後的音訊）
 
-<img src="https://github.com/E84081210/Test/blob/main/Result/5.0_result.png" alt="專案封面圖" width="80%">
+<img src="https://github.com/TingYuHsu2000/Butter-Noise-Filter/blob/main/Result/5.0_result.png" alt="專案封面圖" width="80%">
 
 Top image: waveform of the original audio. Bottom image: waveform of the processed audio. The audio quality shows noticeable differences, especially in the reduced background noise and the highlighted vocals. However, the processed audio sounds noticeably thinner.
 
@@ -23,7 +23,7 @@ In version I, an arbitrary audio signal was used for preliminary algorithm testi
 
 在版本 I 中，我使用了隨機音頻信號進行初步的算法測試。然而，結果非常不理解，音質顯著地下降了。
 
-<img src="https://github.com/E84081210/Test/blob/main/Result/preliminary_test.png" alt="第一次測試" width="80%">
+<img src="https://github.com/TingYuHsu2000/Butter-Noise-Filter/blob/main/Result/preliminary_test.png" alt="第一次測試" width="80%">
 
 ```python
 # Generate simulated data
@@ -83,14 +83,14 @@ Interestingly, during testing, I found that some videos deliberately retain cert
 有趣的是，在測試過程中，我發現部分影片會故意保留一些雜音，以增強真實感。因此，在確定演算法使用 Butterworth 濾波器後，我決定手動添加一些聲音的回音，以保持過濾後聲音的真實性和豐富度。
 
 ### Conclusive Version 5️⃣: 最終第五版
-In the final [audio file](https://github.com/E84081210/Test/blob/main/Result/5.0_audio.mp3), I applied a Butterworth filter, added reverb effects, and performed normalization at several stages.
+In the final [audio file](https://github.com/TingYuHsu2000/Butter-Noise-Filter/blob/main/Result/5.0_audio.mp3), I applied a Butterworth filter, added reverb effects, and performed normalization at several stages.
 
-在最終的[音訊檔案](https://github.com/E84081210/Test/blob/main/Result/5.0_audio.mp3)中，我套用了 Butterworth Filter 以及添加 Reverb 回迴，並在許多地方做了正規化的處理。
+在最終的[音訊檔案](https://github.com/TingYuHsu2000/Butter-Noise-Filter/blob/main/Result/5.0_audio.mp3)中，我套用了 Butterworth Filter 以及添加 Reverb 回迴，並在許多地方做了正規化的處理。
 
 ## Retrospective 檢討
 In fact, after initial adjustments to my algorithm design, I achieved relatively stable waveforms. However, the audio always had an indescribable strangeness – voices became very thin, distorted, almost surreal. At first listen, one might think the recording was made in a bathtub or using an old-fashioned phone. While I did achieve my goals from a data perspective, I further optimized for realism in human perception. I preserved waveform integrity while making voices more prominent and reducing surrounding noise.
 
 事實上，在我最初的演算法設計調整後，我就能得到相對穩定的波形圖，但音訊總是有一種難以言喻的怪異感－聲音變得十分單薄、扭曲、超現實。乍聽之下，會以為這個人是在浴缸裡面錄製、或是使用老款的手機撥打電話。從數據上，我確實達到了目標，但對於人的聽感而言，我還做了更多真實性的優化，在保留波形完整的情況下，使得人聲更加凸顯、周遭的雜音下降。
 
-Development process 開發流程 <img src="https://github.com/E84081210/Test/blob/main/dev_log.PNG" alt="開發流程" width="80%">
+Development process 開發流程 <img src="https://github.com/TingYuHsu2000/Butter-Noise-Filter/blob/main/dev_log.PNG" alt="開發流程" width="80%">
 
