@@ -92,5 +92,5 @@ In fact, after initial adjustments to my algorithm design, I achieved relatively
 
 事實上，在我最初的演算法設計調整後，我就能得到相對穩定的波形圖，但音訊總是有一種難以言喻的怪異感－聲音變得十分單薄、扭曲、超現實。乍聽之下，會以為這個人是在浴缸裡面錄製、或是使用老款的手機撥打電話。從數據上，我確實達到了目標，但對於人的聽感而言，我還做了更多真實性的優化，在保留波形完整的情況下，使得人聲更加凸顯、周遭的雜音下降。
 
-Development process 開發流程 <img src="https://github.com/TingYuHsu2000/Butter-Noise-Filter/blob/main/dev_log.PNG" alt="開發流程" width="80%">
+Development process 開發流程 <img src="" alt="開發流程" width="80%">
 
