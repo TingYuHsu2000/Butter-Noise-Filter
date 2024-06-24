@@ -85,7 +85,7 @@ Interestingly, during testing, I found that some videos deliberately retain cert
 ### Conclusive Version 5️⃣: 最終第五版
 In the final [audio file](https://github.com/TingYuHsu2000/Butter-Noise-Filter/blob/main/Result/5.0_audio.mp3), I applied a Butterworth filter, added reverb effects, and performed normalization at several stages.
 
-在最終的[音訊檔案](https://github.com/TingYuHsu2000/Butter-Noise-Filter/blob/main/Result/5.0_audio.mp3)中，我套用了 Butterworth Filter 以及添加 Reverb 回迴，並在許多地方做了正規化的處理。
+在最終的[音訊檔案](https://github.com/TingYuHsu2000/Butter-Noise-Filter/blob/main/Result/5.0_audio.mp3)中，我套用了 Butterworth Filter 以及添加 Reverb 迴響，並在許多地方做了正規化的處理。
 
 ## Retrospective 檢討
 In fact, after initial adjustments to my algorithm design, I achieved relatively stable waveforms. However, the audio always had an indescribable strangeness – voices became very thin, distorted, almost surreal. At first listen, one might think the recording was made in a bathtub or using an old-fashioned phone. While I did achieve my goals from a data perspective, I further optimized for realism in human perception. I preserved waveform integrity while making voices more prominent and reducing surrounding noise.
