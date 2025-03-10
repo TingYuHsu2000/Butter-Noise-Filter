@@ -1,4 +1,4 @@
-# Butter Noise Fliter 奶油聲音過濾器
+# Butter Noise Filter 奶油聲音過濾器
 
 ## Introduction 簡介
 This repository provides a simple example and demonstration of a Butterworth filter in Python, particularly for audio with a complicated background. To avoid environment issues, the main body of code was built on Google Colab, allowing it to run smoothly without any pre-construction.
